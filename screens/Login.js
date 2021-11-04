@@ -31,7 +31,7 @@ source={{url:"https://images.unsplash.com/photo-1620554740172-7c02a78b239d?ixid=
     borderWidth: 1,
     margin:10,
     width:200,
-    }} placeholder=".......@gmail.com" /> 
+    }} placeholder="" /> 
 
 
     <TouchableOpacity onPress={() =>{
