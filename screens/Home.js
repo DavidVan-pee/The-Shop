@@ -6,7 +6,6 @@ import { AntDesign } from '@expo/vector-icons';
 import { TextInput } from "react-native-gesture-handler";
 import Card from '../routes/card'
 
-
 export default function Home(Navigation){
     
     
@@ -31,9 +30,7 @@ export default function Home(Navigation){
    width:150,
    borderRadius:10
 }}/>
-<AntDesign name="setting" size={24} color="black" />
-
-</View>
+<AntDesign name="shoppingcart" size={24} color="black" /></View>
 
 
 <ScrollView> 
