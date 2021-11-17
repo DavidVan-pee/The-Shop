@@ -31,7 +31,7 @@ source={{url:"https://images.unsplash.com/photo-1620554740172-7c02a78b239d?ixid=
     borderWidth: 1,
     margin:10,
     width:200,
-    }} placeholder="" /> 
+    }} placeholder="Should contain more than 7 characters" /> 
 
 
     <TouchableOpacity onPress={() =>{
@@ -50,7 +50,7 @@ source={{url:"https://images.unsplash.com/photo-1620554740172-7c02a78b239d?ixid=
     
 
    </TouchableOpacity>
-
+<View style={{paddingTop: 20}}>
    <TouchableOpacity 
    
    style={{backgroundColor: "black", 
@@ -62,7 +62,7 @@ source={{url:"https://images.unsplash.com/photo-1620554740172-7c02a78b239d?ixid=
          <AntDesign name="apple1" size={24} color="white"/>
     <Text style={{fontSize: 17, color: "white", marginLeft:10}}>Login With Apple</Text>
    </TouchableOpacity>
-
+</View>
    <TouchableOpacity>
    <Text style={{marginTop:10, fontWeight: '500', color: 'yellow' ,}}> Not a member ?
     <Text style={{color:"white" , fontWeight: 'bold',}}> Signup </Text> 

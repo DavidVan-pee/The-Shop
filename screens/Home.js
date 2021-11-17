@@ -2,8 +2,10 @@ import React from "react";
 import { ImageBackground, View,Text,Image,TouchableOpacity,ScrollView } from "react-native";
 import { EvilIcons } from '@expo/vector-icons'; 
 import { Entypo } from '@expo/vector-icons'; 
+import { AntDesign } from '@expo/vector-icons';
 import { TextInput } from "react-native-gesture-handler";
 import Card from '../routes/card'
+
 
 export default function Home(Navigation){
     
@@ -15,24 +17,25 @@ export default function Home(Navigation){
         
         }}> 
         
-  
+{
 
-<View>  
-    <View style= {{padding:40,flexDirection:'row',justifyContent:'space-between'}}>
-<EvilIcons name="search" size={30} color="black" />
+}
+
+<View>
+   <View style= {{padding:40,flexDirection:'row',justifyContent:'space-between'}}>
+<AntDesign name="setting" size={24} color="black" />
 <TextInput placeholder= "search" style={{
-  backgroundColor:"#e3e3e3" ,
-  padding: 5,
-  borderWidth: 2,
-  width:150,
-  borderRadius:10
-  }}/>
-<Entypo name="menu" size={30} color="black" />
+   backgroundColor:"#e3e3e3" ,
+   padding: 5,
+   borderWidth: 2,
+   width:150,
+   borderRadius:10
+}}/>
+<AntDesign name="setting" size={24} color="black" />
+
+</View>
 
 
-
-
-    </View>
 <ScrollView> 
 <View style={{padding:30}}>
 <Card>
@@ -40,7 +43,7 @@ export default function Home(Navigation){
 style={{width:190, height:200}}
 source={{url:"https://cdna.lystit.com/200/250/n/photos/atterley/9ad42e5b/loake-Brown-Leather-Wadham-Oxford-Shoes.jpeg"
 }}/>
-<Text style={{fontWeight:'600',fontSize:20}}>LOAKE</Text>
+<Text style={{fontWeight:'600',fontSize:20}}>LOAKES</Text>
 <Text style={{fontWeight:'600',fontSize:20}}>GH 300.00</Text>
 <TouchableOpacity 
    
@@ -199,5 +202,6 @@ source={{url:"https://cdn-images.farfetch-contents.com/16/68/13/24/16681324_3348
 
 </View>
 </ImageBackground>
+
     )
 }
