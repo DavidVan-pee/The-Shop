@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import {SafeAreaView, StyleSheet, View, Text, Image} from 'react-native';
 import {FlatList} from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/MaterialIcons';
