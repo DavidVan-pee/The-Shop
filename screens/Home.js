@@ -6,7 +6,7 @@ import { AntDesign } from '@expo/vector-icons';
 import { TextInput } from "react-native-gesture-handler";
 import Card from '../routes/card'
 
-export default function Home(Navigation){
+export default function Home({navigation}){
     
     
     return  (
@@ -22,7 +22,10 @@ export default function Home(Navigation){
 
 <View>
    <View style= {{padding:40,flexDirection:'row',justifyContent:'space-between'}}>
+<TouchableOpacity onPress={() => {  navigation.navigate('Settings')
+}}>
 <AntDesign name="setting" size={24} color="black" />
+</TouchableOpacity>
 <TextInput placeholder= "search" style={{
    backgroundColor:"#e3e3e3" ,
    padding: 5,
